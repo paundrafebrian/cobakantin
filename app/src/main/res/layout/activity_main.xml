@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="550dp"
+            android:background="@drawable/tampilan_orange"
+            android:padding="20dp"></View>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="376dp"
+            android:background="@drawable/kantin"></ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:padding="100dp"
+            android:text="KANTINKU"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="34dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Get Started"
+            android:textSize="20dp"></Button>
+    </LinearLayout>
+</LinearLayout>
